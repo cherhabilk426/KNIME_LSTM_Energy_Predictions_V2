@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">&lt;unknown&gt;</met:element>
+<met:element form="date" read-only="false" name="Creation Date">1/0/1970/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">LSTM Network
+
+This workflow predicts the irregular component of time series (energy consumption) by an LSTM network with lagged values as input. The irregular component of time series is what is left after removing the trend and first and second seasonality. The trained model is then used for out-of-sample forecasting. The forecasted values are compared to the actual values, and the performance of the forecast is reported via scoring metrics and a line plot.&#13;
+&#13;
+
+
+BLOG: "Once Upon A Time..." by LSTM Network https://www.knime.com/blog/text-generation-with-lstm
+TAGS: Time Series,Prediction,Energy Usage,LSTM,Deep Learning,Neural Network,Keras</met:element>
+</met:KNIMEMetaInfo>
